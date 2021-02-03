@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 16 15:34:50 2020
-
-@author: 500060658
-"""
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
@@ -271,6 +265,3 @@ if __name__ == "__main__":
     menubar.add_cascade(label="Help", menu=helpmenu)
     master.config(menu=menubar)
     mainloop()
-    
-    
-
